@@ -1,0 +1,169 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "education": "Formation",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "resume": "CV",
+    "contact": "Contact"
+  },
+  "greeting": {
+    "title": "Salut tout le monde, je suis Hamza",
+    "subtitle": "Un développeur d'applications mobiles senior passionné avec une solide expérience dans la création d'applications mobiles de haute qualité. Je me spécialise dans le développement d'applications fluides et évolutives en utilisant Swift, UIKit, Objective-C, SwiftUI, Kotlin et Dart. De la création d'interfaces utilisateur intuitives à l'implémentation d'intégrations backend complexes, je me concentre sur la livraison de solutions iOS et Android robustes qui apportent une réelle valeur",
+    "contactButton": "Me contacter",
+    "resumeButton": "Télécharger mon CV"
+  },
+  "skills": {
+    "title": "Ce que je fais",
+    "subtitle": "Développeur mobile curieux toujours prêt à plonger dans la prochaine grande nouveauté",
+    "skill1": "⚡ Concevoir et développer des applications mobiles de haute qualité avec des interfaces fluides, réactives et conviviales",
+    "skill2": "⚡ Créer des applications qui sont :",
+    "skill2_sub1": "✔ Basées sur des idées fortes et évolutives",
+    "skill2_sub2": "✔ Visuellement attrayantes et engageantes",
+    "skill2_sub3": "✔ Fonctionnelles et intuitives—exactement comme les utilisateurs s'y attendent",
+    "skill3": "⚡ Implémenter des fonctionnalités puissantes en utilisant des technologies comme Swift, Objective-C, SwiftUI, Flutter et Kotlin",
+    "skill4": "⚡ Intégrer des services tiers incluant Firebase (Firestore, Auth, Realtime DB, Storage), AWS et des API REST personnalisées",
+    "skill5": "⚡ Suivre des architectures modernes (MVVM, MVC, MVP, Clean Architecture) pour des bases de code évolutives et maintenables"
+  },
+  "education": {
+    "title": "Formation",
+    "subtitle": "Qualifications de base et certifications",
+    "degree": "Licence en Informatique",
+    "university": "Université de Sargodha",
+    "duration": "(Octobre 2017 - Juin 2021)"
+  },
+  "experience": {
+    "title": "Expérience",
+    "subtitle": "Travail, stages et bénévolat",
+    "joblogic": {
+      "role": "Développeur d'applications mobiles senior",
+      "company": "Joblogic",
+      "description": "Rejoint en tant que développeur iOS de niveau intermédiaire, évolué vers un rôle de développeur mobile senior",
+      "heading": "Responsabilités clés et réalisations",
+      "points": [
+        "Développé et maintenu l'application iOS en utilisant Swift, Objective-C, MVVM, Clean Swift et Core Data",
+        "Travaillé sur l'application Flutter en utilisant Dart, Clean Architecture et GetX",
+        "Maintenu le module WebView en utilisant HTML, CSS, JavaScript et MVC",
+        "Stabilisé l'application en corrigeant des bugs critiques et atteint une expérience 100% sans crash en production",
+        "Refactorisé 80% de la base de code legacy de Joblogic, résolvant les crashes et bugs critiques"
+      ],
+      "toolsHeading": "Outils et compétences acquis :",
+      "tools": [
+        "JIRA, Azure DevOps, Git",
+        "SwiftUI (projets personnels)",
+        "Expertise en architecture cross-platform et clean"
+      ]
+    },
+    "yumyapps": {
+      "role": "Développeur d'applications iOS",
+      "company": "YumyApps",
+      "description": "Rejoint en tant que développeur iOS de niveau intermédiaire, dirigeant le développement d'applications de bout en bout—de la construction initiale au déploiement sur l'App Store, maintenance et améliorations de fonctionnalités",
+      "heading": "Responsabilités clés et réalisations :",
+      "points": [
+        "Construit et maintenu des applications iOS en utilisant Swift et UIKit",
+        "Amélioré les fonctionnalités de l'application et résolu les bugs critiques pour stabiliser le produit",
+        "Posé les bases d'un nouveau produit avec une architecture propre et des composants réutilisables",
+        "Utilisé Core Data pour un stockage local et une persistance efficaces",
+        "Appliqué les modèles d'architecture MVVM et MVC pour un code évolutif",
+        "Collaboré avec des équipes interfonctionnelles pour une livraison dans les délais et l'assurance qualité"
+      ]
+    },
+    "vespert": {
+      "role": "Développeur d'applications iOS",
+      "company": "Vespert Tech",
+      "description": "Commencé ma carrière de développement iOS chez Vespert Tech, responsable de la construction et maintenance d'applications iOS",
+      "heading": "Responsabilités clés et réalisations :",
+      "points": [
+        "Livré plus de 15 applications, aidant les startups à croître et se lancer avec succès",
+        "Construit et lancé des applications iOS de zéro en utilisant Swift, Objective-C et UIKit",
+        "Intégré des fonctionnalités clés comme les achats in-app, WebSockets et Google AdMob",
+        "Amélioré les bases de code legacy en adoptant l'architecture MVVM/MVC et la refactorisation",
+        "Collaboré dans des équipes Agile avec participation active aux stand-ups et planification de sprints",
+        "Reconnu comme membre d'équipe très performant pour l'ajout de valeur à l'entreprise"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "subtitle": "Startups et entreprises auxquelles j'ai contribué en construisant et façonnant leur technologie depuis le début",
+    "viewProject": "Voir le projet",
+    "joblogic": {
+      "name": "Joblogic",
+      "description": "Suite logicielle de gestion de services sur le terrain pour SaaS"
+    },
+    "jalsah": {
+      "name": "Jalsah",
+      "description": "Application d'interaction sociale pour chat en temps réel, défis interactifs et jeux"
+    },
+    "familytime": {
+      "name": "FamilyTime",
+      "description": "Application de contrôle parental avec capacités de surveillance et de blocage"
+    },
+    "alfalah": {
+      "name": "Alfalah",
+      "description": "Application de style de vie islamique avec Coran, prières, duas, direction Qibla et calendrier islamique"
+    },
+    "getanexpert": {
+      "name": "Get An Expert",
+      "description": "Application de marketplace de services connectant fournisseurs et clients"
+    },
+    "quokka": {
+      "name": "Quokka",
+      "description": "Application de rencontres sociales pour appels vocaux d'une minute"
+    },
+    "scanner": {
+      "name": "Scanner App",
+      "description": "Utilitaire de numérisation, édition et génération PDF de documents"
+    },
+    "skuscanner": {
+      "name": "SKU Scanner",
+      "description": "Application de gestion d'inventaire qui permet aux utilisateurs de gérer le stock, générer et scanner des codes-barres, maintenir des enregistrements et créer des rapports détaillés pour le suivi et l'analyse"
+    },
+    "communitymaker": {
+      "name": "Community Maker",
+      "description": "Application sociale permettant aux utilisateurs de publier des demandes d'aide dans les communautés locales"
+    },
+    "pisiffik": {
+      "name": "Pisiffik",
+      "description": "Application e-commerce moderne avec achat d'épicerie en ligne, retrait en magasin, livraison à domicile et système de récompenses de fidélité intégré"
+    },
+    "my360key": {
+      "name": "My 360 Key",
+      "description": "Application pour la découverte en temps réel de magasins à proximité avec navigation basée sur la carte et déverrouillage intelligent de porte utilisant MapKit et les API de serrures intelligentes"
+    },
+    "lifesign": {
+      "name": "Life Sign",
+      "description": "Application mobile sécurisée axée sur la communication avec messagerie en temps réel pour aider les utilisateurs à rester connectés avec leurs amis et leur famille grâce à des conversations privées et instantanées"
+    },
+    "flovso": {
+      "name": "Flovso App",
+      "description": "Plateforme sociale pour l'industrie de la mode, permettant aux utilisateurs de partager des opinions, s'engager dans des discussions et obtenir des commentaires de la communauté sur les tendances, marques et créateurs—avec du contenu généré par les utilisateurs, likes, commentaires"
+    }
+  },
+  "achievements": {
+    "title": "Réalisations et certifications 🏆",
+    "subtitle": "Réalisations, certifications, lettres de prix et quelques trucs sympas que j'ai faits !"
+  },
+  "contact": {
+    "title": "Me contacter ☎️",
+    "subtitle": "Discuter d'un projet ou juste dire bonjour ? Ma boîte de réception est ouverte pour tous",
+    "phone": "+92 323 7426165",
+    "email": "code.believers@gmail.com"
+  },
+  "resume": {
+    "title": "CV",
+    "subtitle": "N'hésitez pas à télécharger mon CV"
+  },
+  "footer": {
+    "madeWith": "Fait avec",
+    "by": "par",
+    "theme": "Thème par"
+  },
+  "common": {
+    "openForOpportunities": "Ouvert aux opportunités :",
+    "yes": "Oui",
+    "no": "Non"
+  }
+}

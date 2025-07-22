@@ -1,0 +1,169 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "greeting": {
+    "title": "Hi all, I'm Hamza",
+    "subtitle": "A passionate Senior Mobile Application Developer with a strong background in building high-quality mobile apps. I specialize in developing seamless, scalable applications using Swift, UIKit, Objective-C, SwiftUI, Kotlin, and Dart. From crafting intuitive user interfaces to implementing complex backend integrations, I focus on delivering robust iOS and Android solutions that provide real value",
+    "contactButton": "Contact me",
+    "resumeButton": "Download my resume"
+  },
+  "skills": {
+    "title": "What I do",
+    "subtitle": "Curious Mobile Developer Always Ready to Dive into the Next Big Thing",
+    "skill1": "⚡ Design and develop high-quality mobile applications with smooth, responsive, and user-friendly interfaces",
+    "skill2": "⚡ Build apps that are:",
+    "skill2_sub1": "✔ Based on strong, scalable ideas",
+    "skill2_sub2": "✔ Visually appealing and engaging", 
+    "skill2_sub3": "✔ Functional and intuitive—just the way users expect",
+    "skill3": "⚡ Implement powerful features using technologies like Swift, Objective-C, SwiftUI, Flutter and Kotlin",
+    "skill4": "⚡ Integrate third-party services including Firebase (Firestore, Auth, Realtime DB, Storage), AWS, and custom REST APIs",
+    "skill5": "⚡ Follow modern architectures (MVVM, MVC, MVP, Clean Architecture) for scalable and maintainable codebases"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Basic Qualification and Certifications",
+    "degree": "Bachelor in Computer Science",
+    "university": "University of Sargodha",
+    "duration": "(October 2017 - June 2021)"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Work, Internship and Volunteership",
+    "joblogic": {
+      "role": "Senior Mobile Application Developer",
+      "company": "Joblogic",
+      "description": "Joined as a Mid-Level iOS Developer, transitioned into a Senior Mobile Developer role",
+      "heading": "Key Responsibilities & Achievements",
+      "points": [
+        "Developed and maintained iOS app using Swift, Objective-C, MVVM, Clean Swift, and Core Data",
+        "Worked on Flutter app using Dart, Clean Architecture, and GetX",
+        "Maintained WebView module using HTML, CSS, JavaScript, and MVC",
+        "Stabilized the app by fixing critical bugs and achieved a 100% crash-free experience in production",
+        "Refactored 80% of the legacy Joblogic codebase, resolving critical crashes and bugs"
+      ],
+      "toolsHeading": "Tools & Skills Gained:",
+      "tools": [
+        "JIRA, Azure DevOps, Git",
+        "SwiftUI (personal projects)",
+        "Cross-platform and clean architecture expertise"
+      ]
+    },
+    "yumyapps": {
+      "role": "iOS Application Developer",
+      "company": "YumyApps",
+      "description": "Joined as a Mid-level iOS Developer, leading end-to-end app development—from initial build to App Store deployment, maintenance, and feature enhancements",
+      "heading": "Key Responsibilities & Achievements:",
+      "points": [
+        "Built and maintained iOS applications using Swift and UIKit",
+        "Enhanced app functionality and resolved critical bugs to stabilize the product",
+        "Set the foundation for a new product with clean architecture and reusable components",
+        "Utilized Core Data for efficient local storage and persistence",
+        "Applied MVVM and MVC architecture patterns for scalable code",
+        "Collaborated with cross-functional teams for timely delivery and quality assurance"
+      ]
+    },
+    "vespert": {
+      "role": "iOS Application Developer",
+      "company": "Vespert Tech",
+      "description": "Began my iOS development career at Vespert Tech, responsible for building and maintaining iOS applications",
+      "heading": "Key Responsibilities & Achievements:",
+      "points": [
+        "Delivered over 15+ apps, helping startups grow and launch successfully",
+        "Built and launched iOS apps from scratch using Swift, Objective-C, and UIKit",
+        "Integrated key features like In-App Purchases, WebSockets, and Google AdMob",
+        "Improved legacy codebases by adopting MVVM/MVC architecture and refactoring",
+        "Collaborated in Agile teams with active participation in stand-ups and sprint planning",
+        "Recognized as a top-performing team member for adding value to the company"
+      ]
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Startups and companies I've contributed to by building and shaping their technology from the ground up",
+    "viewProject": "View Project",
+    "joblogic": {
+      "name": "Joblogic",
+      "description": "Field service management software suite for SaaS"
+    },
+    "jalsah": {
+      "name": "Jalsah",
+      "description": "Social interaction app for real-time chatting, interactive challenges, and games"
+    },
+    "familytime": {
+      "name": "FamilyTime",
+      "description": "Parental control app with monitoring and blocking capabilities"
+    },
+    "alfalah": {
+      "name": "Alfalah",
+      "description": "Islamic lifestyle app featuring Quran, prayers, duas, Qibla direction, and Islamic calendar"
+    },
+    "getanexpert": {
+      "name": "Get An Expert",
+      "description": "Service marketplace app connecting providers and clients"
+    },
+    "quokka": {
+      "name": "Quokka",
+      "description": "Social matchmaking app for one-minute voice calls"
+    },
+    "scanner": {
+      "name": "Scanner App",
+      "description": "Document scanning, editing, and PDF generation utility"
+    },
+    "skuscanner": {
+      "name": "SKU Scanner",
+      "description": "An inventory management application that allows users to manage stock, generate and scan barcodes, maintain records, and create detailed reports for tracking and analysis"
+    },
+    "communitymaker": {
+      "name": "Community Maker",
+      "description": "Social app enabling users to post help requests within local communities"
+    },
+    "pisiffik": {
+      "name": "Pisiffik",
+      "description": "Modern e-commerce app with online grocery shopping, in-store pickup, home delivery, and a built-in loyalty rewards system"
+    },
+    "my360key": {
+      "name": "My 360 Key",
+      "description": "App for real-time discovery of nearby shops with map-based navigation and smart door unlocking using MapKit and smart lock APIs"
+    },
+    "lifesign": {
+      "name": "Life Sign",
+      "description": "A secure, communication-focused mobile app with real-time messaging to help users stay connected with friends and family through private, instant conversations"
+    },
+    "flovso": {
+      "name": "Flovso App",
+      "description": "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments"
+    }
+  },
+  "achievements": {
+    "title": "Achievements And Certifications 🏆",
+    "subtitle": "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !"
+  },
+  "contact": {
+    "title": "Contact Me ☎️",
+    "subtitle": "Discuss a project or just want to say hi? My Inbox is open for all",
+    "phone": "+92 323 7426165",
+    "email": "code.believers@gmail.com"
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "Feel free to download my resume"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by",
+    "theme": "Theme by"
+  },
+  "common": {
+    "openForOpportunities": "Open for opportunities:",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

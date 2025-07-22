@@ -1,12 +1,9 @@
-import React, {useContext} from "react";
+import React from "react";
 import "./Podcast.scss";
 import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
-
   if (!podcastSection)
     console.error("podcastSection object for Podcast section is missing");
 

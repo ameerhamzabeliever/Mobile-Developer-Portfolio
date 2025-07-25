@@ -6,6 +6,7 @@
     "education": "Formation",
     "experience": "Expérience",
     "projects": "Projets",
+    "achievements": "Réalisations",
     "resume": "CV",
     "contact": "Contact"
   },
@@ -144,7 +145,21 @@
   },
   "achievements": {
     "title": "Réalisations et certifications 🏆",
-    "subtitle": "Réalisations, certifications, lettres de prix et quelques trucs sympas que j'ai faits !"
+    "subtitle": "Réalisations, certifications, lettres de prix et quelques trucs sympas que j'ai faits !",
+    "cards": {
+      "apple": {
+        "title": "Apple Certifié Développement d'App iOS avec Swift",
+        "subtitle": "Terminé le curriculum officiel d'Apple axé sur le développement iOS avec Swift. Acquis une expérience pratique avec l'architecture d'app, la programmation Swift, la conception UI et le déploiement. Participé via le Swift Student Challenge et les initiatives d'apprentissage affiliées d'Apple"
+      },
+      "hackathon": {
+        "title": "Gagnant du Hackathon chez AngelHack",
+        "subtitle": "Première place sécurisée chez AngelHack pour le développement d'une application mobile offrant une assistance d'urgence en temps réel et un géo-tracking. Dirigé le développement iOS, implémenté une architecture évolutive utilisant Swift et MVVM, et présenté la solution à un panel d'experts de l'industrie"
+      },
+      "speaker": {
+        "title": "Conférencier aux Meetups ou Conférences de Développement Mobile",
+        "subtitle": "Présenté des talks techniques sur les modèles d'architecture iOS incluant MVVM, Clean Swift, et la conception d'app modulaire. Partagé des insights sur les pratiques de code évolutives, les stratégies de débogage du monde réel, et le développement cross-platform utilisant Flutter et SwiftUI lors de diverses meetups locales et sessions en ligne"
+      }
+    }
   },
   "contact": {
     "title": "Me contacter ☎️",

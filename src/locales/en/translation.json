@@ -6,6 +6,7 @@
     "education": "Education",
     "experience": "Experience",
     "projects": "Projects",
+    "achievements": "Achievements",
     "resume": "Resume",
     "contact": "Contact"
   },
@@ -144,7 +145,21 @@
   },
   "achievements": {
     "title": "Achievements And Certifications 🏆",
-    "subtitle": "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !"
+    "subtitle": "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "cards": {
+      "apple": {
+        "title": "Apple Certified iOS App Development with Swift",
+        "subtitle": "Completed Apple's official curriculum focused on iOS development using Swift. Gained hands-on experience with app architecture, Swift programming, UI design, and deployment. Participated through the Swift Student Challenge and affiliated Apple learning initiatives"
+      },
+      "hackathon": {
+        "title": "Hackathon Winner at AngelHack",
+        "subtitle": "Secured first place at AngelHack for developing a mobile application that provided real-time emergency assistance and geo-tracking. Led the iOS development, implemented scalable architecture using Swift and MVVM, and presented the solution to a panel of industry experts"
+      },
+      "speaker": {
+        "title": "Speaker at Mobile Dev Meetups or Conferences",
+        "subtitle": "Delivered technical talks on iOS architecture patterns including MVVM, Clean Swift, and modular app design. Shared insights on scalable code practices, real-world debugging strategies, and cross-platform development using Flutter and SwiftUI at various local meetups and online sessions"
+      }
+    }
   },
   "contact": {
     "title": "Contact Me ☎️",

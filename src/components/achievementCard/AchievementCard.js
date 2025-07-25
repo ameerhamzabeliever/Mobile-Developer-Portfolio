@@ -25,24 +25,26 @@ export default function AchievementCard({cardInfo, isDark}) {
           {cardInfo.title}
         </h5>
         <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
-          {cardInfo.description}
+          {cardInfo.subtitle}
         </p>
       </div>
-      <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
-          return (
-            <span
-              key={i}
-              className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
-              }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
-            >
-              {v.name}
-            </span>
-          );
-        })}
-      </div>
+      {cardInfo.footerLink && cardInfo.footerLink.length > 0 && (
+        <div className="certificate-card-footer">
+          {cardInfo.footerLink.map((v, i) => {
+            return (
+              <span
+                key={i}
+                className={
+                  isDark ? "dark-mode certificate-tag" : "certificate-tag"
+                }
+                onClick={() => openUrlInNewTab(v.url, v.name)}
+              >
+                {v.name}
+              </span>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

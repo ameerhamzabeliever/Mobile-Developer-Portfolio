@@ -1,76 +1,167 @@
 @import "../../_globalColor";
 
-.card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
-}
-.card-title {
-  color: $titleColor;
-  font-size: 1.375rem;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 15px 0 0 0;
-}
-.card-subtitle {
-  color: $cardSubtitle;
-  font-size: 1.063rem;
-  line-height: 1.5rem;
-}
 .certificate-card {
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  padding: 1.5rem;
-  border-radius: 10px;
+  padding: 0 0 1.5rem 0;
+  border-radius: 16px;
   border: 1px solid $lightBorder1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.certificate-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #007AFF 0%, #34C759 50%, #FF9500 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.certificate-card:hover::before {
+  opacity: 1;
 }
 .certificate-detail-div {
   text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.card-title {
+  color: $titleColor;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
 }
 .certificate-card:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  box-shadow: $lightBoxShadowDark 0px 25px 50px -12px;
+  transform: translateY(-8px);
 }
 .dark-mode.certificate-card:hover {
-  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+  box-shadow: $achievementCertificateCardHoverDark 0px 25px 50px -12px;
+  transform: translateY(-8px);
 }
 .certificate-image-div {
   position: relative;
-  height: 250px;
+  height: 280px;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  border-radius: 12px 12px 0 0;
+  background: #f8f9fa;
+  margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.certificate-image-div .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+  border-radius: 0;
+}
+
+.certificate-card:hover .certificate-image-div .card-image {
+  transform: scale(1.03);
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 2rem;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .achievement-cards-div {
+    gap: 1.5rem 1.5rem;
+  }
+  
+  .certificate-image-div {
+    height: 250px;
+    margin: -1.25rem -1.25rem 1.25rem -1.25rem;
+  }
+  
+  .certificate-card {
+    min-height: 470px;
+    padding: 0 0 1.25rem 0;
+  }
+
+  .certificate-detail-div {
+    padding: 0 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .certificate-image-div {
+    height: 220px;
+    margin: -1rem -1rem 1rem -1rem;
+  }
+  
+  .certificate-card {
+    min-height: 440px;
+    padding: 0 0 1rem 0;
+  }
+
+  .certificate-detail-div {
+    padding: 0 1rem;
+  }
 }
 .certificate-card-footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: auto;
+  padding-top: 1rem;
 }
+
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
   vertical-align: middle;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 6px;
   display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
+  font-size: 0.8rem;
+  height: 2.2em;
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  margin: 0 0.3rem 0.3rem 0;
+  padding: 0 0.8em;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
+  font-weight: 500;
 }
 span.certificate-tag:hover {
   background: $buttonHover;

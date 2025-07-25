@@ -10,6 +10,14 @@
 
 This is a customized version of the popular developerFolio template, specifically tailored for mobile application developers. Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file.
 
+## ✨ Latest Updates
+
+🆕 **Enhanced Achievements Section**: Beautiful 2-column grid layout with taller images and professional card design  
+🌍 **Full Localization**: Complete English and French translations with react-i18next  
+🎨 **Improved Visual Design**: Optimized image sizing, hover effects, and responsive layouts  
+📱 **Mobile-First Design**: Perfect responsive experience across all devices  
+🏆 **Professional Showcase**: Clean achievement cards without buttons for better focus on content  
+
 ## About This Portfolio
 
 This portfolio showcases the work of **Ameer Hamza**, a Senior Mobile Application Developer specializing in:
@@ -20,17 +28,17 @@ This portfolio showcases the work of **Ameer Hamza**, a Senior Mobile Applicatio
 - **Backend Integration**: Firebase, AWS, REST APIs
 
 ## Table of Contents
-- [Sections](#sections)
+- [Portfolio Sections](#portfolio-sections)
+- [Featured Projects](#featured-projects)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
+- [Achievements Section Implementation](#achievements-section-implementation)
+- [Localization Support](#localization-support)
 - [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
-- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+- [Customization Guide](#customization-guide)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [Illustrations](#illustrations)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
+- [Contact Information](#contact-information)
 
 ## Portfolio Sections
 ✔️ Summary and About me\
@@ -39,18 +47,23 @@ This portfolio showcases the work of **Ameer Hamza**, a Senior Mobile Applicatio
 ✔️ Work Experience (Senior Mobile Developer at Joblogic, iOS Developer at YumyApps & Vespert Tech)\
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Mobile App Projects (15+ Published Apps)\
-✔️ Achievements And Certifications 🏆\
+✔️ **Achievements And Certifications 🏆** *(Enhanced with professional design)*\
 ✔️ Contact Information\
 ✔️ Resume Download\
 ✔️ GitHub Profile\
-✔️ Localization Support (English and French)
+✔️ **Full Localization Support** *(English and French)*\
+✔️ **Dark/Light Mode Support**\
+✔️ **Responsive Design** *(Mobile-first approach)*
 
 ## Featured Projects
 - **Joblogic**: Field service management SaaS platform
-- **Jalsah**: Social interaction app with real-time chat and games
+- **Jalsah**: Social interaction app with real-time chat and games  
 - **FamilyTime**: Parental control applications
 - **Alfalah**: Islamic lifestyle app with Quran and prayer features
 - **Pisiffik**: E-commerce app with grocery delivery
+- **Scanner App**: Document scanning and PDF generation utility
+- **SKU Scanner**: Inventory management with barcode scanning
+- **My 360 Key**: Smart door unlocking with NFC technology
 - **And many more mobile applications...**
 
 
@@ -152,9 +165,9 @@ MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
 
 Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
 
-## Change and customize every section according to your need.
+## Customization Guide
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Mobile Developer Portfolio */
@@ -228,6 +241,104 @@ To showcase your mobile apps:
 2. Update the `bigProjects` section in `portfolio.js` with your app details
 3. Include App Store/Play Store links in the `footerLink` array 
 
+#### Achievements and Certifications 🏆
+
+The achievements section has been completely redesigned with a professional, modern layout:
+
+**Features:**
+- ✨ **2-Column Grid Layout**: Displays achievements in an elegant rectangular grid
+- 🖼️ **Enhanced Image Display**: Taller images (280px) that fill the card borders completely
+- 🎨 **Professional Card Design**: Clean cards with hover effects and gradient accents
+- 📱 **Fully Responsive**: Adapts to 1-column layout on mobile devices
+- 🌍 **Localization Ready**: Full support for multiple languages
+- 🎯 **Clean Focus**: No footer buttons - pure content focus
+
+**Configuration in `portfolio.js`:**
+```javascript
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  achievementsCards: [
+    {
+      title: "achievements.cards.apple.title", // Localization key
+      subtitle: "achievements.cards.apple.subtitle", // Localization key
+      image: require("./assets/images/appleCertificate.png"),
+      imageAlt: "Apple iOS Development Certificate"
+    },
+    {
+      title: "achievements.cards.hackathon.title",
+      subtitle: "achievements.cards.hackathon.subtitle", 
+      image: require("./assets/images/HackathonCertificate.png"),
+      imageAlt: "Hackathon Winner Certificate"
+    },
+    {
+      title: "achievements.cards.speaker.title",
+      subtitle: "achievements.cards.speaker.subtitle",
+      image: require("./assets/images/leaderCertificate.jpg"),
+      imageAlt: "Leadership and Speaking Certificate"
+    }
+  ],
+  display: true
+};
+```
+
+**Implementation Details:**
+- **Images**: 280px height on desktop, 250px on tablet, 220px on mobile
+- **Cards**: Minimum 500px height with flexible content area
+- **Hover Effects**: Smooth image scaling and shadow transitions
+- **Border Fitting**: Images extend fully to card edges with negative margins
+- **Accessibility**: Proper alt text and semantic HTML structure
+
+**Adding Your Achievements:**
+1. Add certificate/achievement images to `src/assets/images/`
+2. Update translation files in `src/locales/en/` and `src/locales/fr/`
+3. Configure the `achievementsCards` array with your data
+4. Images should be high-quality (minimum 400x280px) for best results
+
+**Responsive Breakpoints:**
+- **Desktop (>1024px)**: 2-column grid, 280px image height
+- **Tablet (768-1024px)**: 2-column grid, 250px image height  
+- **Mobile (<768px)**: 1-column layout, 220px image height
+
+For a complete implementation guide that can be used in other projects, see: `ACHIEVEMENTS_IMPLEMENTATION.md`
+
+## Localization Support 🌍
+
+This portfolio includes comprehensive internationalization support:
+
+**Supported Languages:**
+- 🇺🇸 **English (en)** - Default language
+- 🇫🇷 **French (fr)** - Complete French translation
+
+**Features:**
+- 🔄 **Language Switcher**: Toggle between EN/FR in the header
+- 💾 **Persistent Preference**: Language choice saved in localStorage
+- 🌐 **Auto-Detection**: Browser language detection on first visit
+- 📝 **Complete Translation**: All sections fully localized including achievements
+
+**Translation Structure:**
+```
+src/locales/
+├── en/translation.json    # English translations
+└── fr/translation.json    # French translations
+```
+
+**Adding New Languages:**
+1. Create translation file: `src/locales/[lang-code]/translation.json`
+2. Add language to `src/i18n.js` resources
+3. Update language switcher component
+4. Translate achievement content in the new language file
+
+**Key Sections Localized:**
+- Navigation menu
+- Greeting and summary
+- Skills and expertise
+- Work experience
+- Education details
+- Achievement cards (titles and descriptions)
+- Contact information
+- All UI text and buttons 
+
 #### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
@@ -251,27 +362,7 @@ const socialMediaLinks = {
 };
 ```
 
-## Localization
-
-This portfolio supports multiple languages:
-- **English (en)** - Default language
-- **French (fr)** - Complete French translation
-
-### Language Switching
-- Use the language switcher buttons (EN/FR) in the header
-- Language preference is saved in localStorage
-- Auto-detection of browser language on first visit
-
-### Translation Files
-- English: `src/locales/en/translation.json`
-- French: `src/locales/fr/translation.json`
-
-### Adding New Languages
-1. Create a new translation file in `src/locales/[language-code]/translation.json`
-2. Add the language to `src/i18n.js` resources
-3. Update the language switcher component to include the new language
-
-## Mobile Development Focus
+## Mobile Development Focus 🚀
 
 This portfolio is specifically optimized for mobile developers and includes:
 
@@ -326,15 +417,42 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 ## Technologies Used 
 
-- [React](https://reactjs.org/) - Frontend framework
-- [React i18next](https://react.i18next.com/) - Internationalization framework
-- [React Easy Emoji](https://github.com/appfigures/react-easy-emoji) - Emoji support
-- [React Headroom](https://github.com/KyleAMathews/react-headroom) - Header behavior
-- [React Reveal](https://www.react-reveal.com/) - Animations
-- [Lottie React](https://www.npmjs.com/package/lottie-react) - Lottie animations
-- [Color Thief](https://github.com/lokesh/color-thief) - Color extraction
+- [React](https://reactjs.org/) - Frontend framework (v16.8+)
+- [React i18next](https://react.i18next.com/) - Internationalization framework for localization
+- [React Easy Emoji](https://github.com/appfigures/react-easy-emoji) - Cross-platform emoji support
+- [React Headroom](https://github.com/KyleAMathews/react-headroom) - Smart header behavior
+- [React Reveal](https://www.react-reveal.com/) - Smooth scroll animations
+- [Lottie React](https://www.npmjs.com/package/lottie-react) - High-quality animations
+- [Color Thief](https://github.com/lokesh/color-thief) - Dynamic color extraction
 - [GraphQL](https://graphql.org/) - GitHub API integration
 - [Apollo Client](https://www.apollographql.com/docs/react/get-started/) - GraphQL client
+- [SCSS](https://sass-lang.com/) - Advanced CSS preprocessing
+- [GitHub Actions](https://github.com/features/actions) - CI/CD automation
+
+## Key Features Implemented
+
+✨ **Enhanced Achievement Section**
+- Professional 2-column grid layout
+- Responsive image scaling (280px desktop, 220px mobile)
+- Hover effects and smooth transitions
+- Full border-fitting images with negative margins
+
+🌍 **Complete Internationalization**
+- English and French translations
+- react-i18next integration
+- Persistent language preferences
+- Auto browser language detection
+
+📱 **Mobile-First Design**
+- Responsive breakpoints for all devices
+- Touch-friendly interface
+- Optimized performance on mobile
+
+🎨 **Professional UI/UX**
+- Dark/Light mode support
+- Consistent design language
+- Modern card-based layouts
+- Gradient accents and professional typography
 
 ## Mobile Development Resources
 - [Apple Developer](https://developer.apple.com/) - iOS development resources
@@ -342,6 +460,42 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [Flutter](https://flutter.dev/) - Cross-platform framework
 - [Firebase](https://firebase.google.com/) - Backend services
 - [React Native](https://reactnative.dev/) - Cross-platform development
+
+## File Structure
+
+```
+Mobile-Developer-Portfolio/
+├── public/                    # Static files
+├── src/
+│   ├── assets/               # Images and media files
+│   │   ├── images/          # Project and achievement images  
+│   │   └── lottie/          # Animation files
+│   ├── components/          # Reusable React components
+│   │   ├── achievementCard/ # Achievement card component
+│   │   ├── header/          # Navigation header
+│   │   └── ...
+│   ├── containers/          # Page sections
+│   │   ├── achievement/     # Achievement section container
+│   │   ├── greeting/        # Home section
+│   │   └── ...
+│   ├── contexts/            # React contexts
+│   ├── locales/             # Translation files
+│   │   ├── en/             # English translations
+│   │   └── fr/             # French translations
+│   ├── _globalColor.scss    # Global color variables
+│   ├── portfolio.js         # Main configuration file
+│   └── i18n.js             # Internationalization setup
+├── ACHIEVEMENTS_IMPLEMENTATION.md  # Reusable implementation guide
+└── README.md               # This file
+```
+
+## Performance Optimizations
+
+- ⚡ **Lazy Loading**: Components load on demand
+- 🖼️ **Image Optimization**: Proper sizing and compression
+- 📦 **Code Splitting**: Reduced bundle sizes
+- 🔄 **Efficient Re-renders**: Optimized React patterns
+- 💾 **Local Storage**: Cached preferences and settings
 
 ## Contact Information
 

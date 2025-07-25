@@ -9,7 +9,8 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  resumeSection
+  resumeSection,
+  achievementSection
 } from "../../portfolio";
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
   const viewResume = resumeSection.display;
+  const viewAchievements = achievementSection.display;
 
   return (
     <Headroom>
@@ -44,6 +46,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">{t('navigation.experience')}</a>
+            </li>
+          )}
+          {viewAchievements && (
+            <li>
+              <a href="#achievements">{t('navigation.achievements', 'Achievements')}</a>
             </li>
           )}
        

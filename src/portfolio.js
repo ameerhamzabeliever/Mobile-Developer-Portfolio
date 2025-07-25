@@ -437,20 +437,24 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    // Add your own achievements here
-    // Example:
-    // {
-    //   title: "Your Achievement Title",
-    //   subtitle: "Description of your achievement",
-    //   image: require("./assets/images/yourLogo.webp"),
-    //   imageAlt: "Your Achievement Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Certificate",
-    //       url: "https://your-certificate-link.com"
-    //     }
-    //   ]
-    // }
+    {
+      title: "achievements.cards.apple.title",
+      subtitle: "achievements.cards.apple.subtitle",
+      image: require("./assets/images/appleCertificate.png"),
+      imageAlt: "Apple iOS Development Certificate"
+    },
+    {
+      title: "achievements.cards.hackathon.title",
+      subtitle: "achievements.cards.hackathon.subtitle",
+      image: require("./assets/images/HackathonCertificate.png"),
+      imageAlt: "Hackathon Winner Certificate"
+    },
+    {
+      title: "achievements.cards.speaker.title",
+      subtitle: "achievements.cards.speaker.subtitle",
+      image: require("./assets/images/leaderCertificate.jpg"),
+      imageAlt: "Leadership and Speaking Certificate"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

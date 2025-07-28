@@ -13,7 +13,9 @@ This is a customized version of the popular developerFolio template, specificall
 ## ✨ Latest Updates
 
 🆕 **Enhanced Achievements Section**: Beautiful 2-column grid layout with taller images and professional card design  
-🌍 **Full Localization**: Complete English and French translations with react-i18next  
+🌍 **Full Localization**: Complete English and French translations with react-i18next and emoji integration 🎯💼🎓🏆  
+🔧 **Fixed Company Localization**: Resolved Vespert Tech and other company name translation mappings  
+🎯 **Proficiency Section**: Added localized skills progress section with emoji support  
 🎨 **Improved Visual Design**: Optimized image sizing, hover effects, and responsive layouts  
 📱 **Mobile-First Design**: Perfect responsive experience across all devices  
 🏆 **Professional Showcase**: Clean achievement cards without buttons for better focus on content  
@@ -51,7 +53,7 @@ This portfolio showcases the work of **Ameer Hamza**, a Senior Mobile Applicatio
 ✔️ Contact Information\
 ✔️ Resume Download\
 ✔️ GitHub Profile\
-✔️ **Full Localization Support** *(English and French)*\
+✔️ **Full Localization Support** *(English and French with emoji integration)*\
 ✔️ **Dark/Light Mode Support**\
 ✔️ **Responsive Design** *(Mobile-first approach)*
 
@@ -315,6 +317,8 @@ This portfolio includes comprehensive internationalization support:
 - 💾 **Persistent Preference**: Language choice saved in localStorage
 - 🌐 **Auto-Detection**: Browser language detection on first visit
 - 📝 **Complete Translation**: All sections fully localized including achievements
+- 🎯 **Dynamic Company Mapping**: Automatic localization for work experience companies
+- 💼 **Proficiency Section**: Skills progress bars with localized titles and emojis
 
 **Translation Structure:**
 ```
@@ -329,13 +333,20 @@ src/locales/
 3. Update language switcher component
 4. Translate achievement content in the new language file
 
+**Dynamic Company Localization:**
+The work experience section automatically maps company names to translation keys:
+- Company names are transformed: `"Vespert Tech"` → `"vesperttech"`
+- Translation keys follow pattern: `workExperiences.companies.[companyKey]`
+- Supports automatic fallback to company name if translation missing
+- Consistent emoji integration across all sections (🎯 💼 🎓 🏆)
+
 **Key Sections Localized:**
 - Navigation menu
 - Greeting and summary
-- Skills and expertise
-- Work experience
-- Education details
-- Achievement cards (titles and descriptions)
+- Skills and expertise 🎯
+- Work experience 💼 (with dynamic company key mapping)
+- Education details 🎓
+- Achievement cards 🏆 (titles and descriptions)
 - Contact information
 - All UI text and buttons 
 

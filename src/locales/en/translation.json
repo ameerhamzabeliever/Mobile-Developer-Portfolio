@@ -29,14 +29,17 @@
     "skill5": "⚡ Follow modern architectures (MVVM, MVC, MVP, Clean Architecture) for scalable and maintainable codebases"
   },
   "education": {
-    "title": "Education",
+    "title": "Education 🎓",
     "subtitle": "Basic Qualification and Certifications",
     "degree": "Bachelor in Computer Science",
     "university": "University of Sargodha",
     "duration": "(October 2017 - June 2021)"
   },
+  "proficiency": {
+    "title": "Proficiency"
+  },
   "experience": {
-    "title": "Experience",
+    "title": "Experience 💼",
     "subtitle": "Work, Internship and Volunteership",
     "joblogic": {
       "role": "Senior Mobile Application Developer",
@@ -87,7 +90,7 @@
     }
   },
   "projects": {
-    "title": "My Projects",
+    "title": "My Projects 🛠️",
     "subtitle": "Startups and companies I've contributed to by building and shaping their technology from the ground up",
     "viewProject": "View Project",
     "joblogic": {
@@ -142,6 +145,18 @@
       "name": "Flovso App",
       "description": "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments"
     }
+  },
+  "blogs": {
+    "title": "Blogs",
+    "subtitle": "With Love for Developing cool stuff, I love to write and teach others what I have learnt."
+  },
+  "talks": {
+    "title": "TALKS",
+    "subtitle": "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  },
+  "podcast": {
+    "title": "Podcast 🎙️",
+    "subtitle": "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY"
   },
   "achievements": {
     "title": "Achievements And Certifications 🏆",

@@ -29,14 +29,17 @@
     "skill5": "⚡ Suivre des architectures modernes (MVVM, MVC, MVP, Clean Architecture) pour des bases de code évolutives et maintenables"
   },
   "education": {
-    "title": "Formation",
+    "title": "Formation 🎓",
     "subtitle": "Qualifications de base et certifications",
     "degree": "Licence en Informatique",
     "university": "Université de Sargodha",
     "duration": "(Octobre 2017 - Juin 2021)"
   },
+  "proficiency": {
+    "title": "Compétences 🎯"
+  },
   "experience": {
-    "title": "Expérience",
+    "title": "Expérience 💼",
     "subtitle": "Travail, stages et bénévolat",
     "joblogic": {
       "role": "Développeur d'applications mobiles senior",
@@ -71,7 +74,7 @@
         "Collaboré avec des équipes interfonctionnelles pour une livraison dans les délais et l'assurance qualité"
       ]
     },
-    "vespert": {
+    "vesperttech": {
       "role": "Développeur d'applications iOS",
       "company": "Vespert Tech",
       "description": "Commencé ma carrière de développement iOS chez Vespert Tech, responsable de la construction et maintenance d'applications iOS",
@@ -87,7 +90,7 @@
     }
   },
   "projects": {
-    "title": "Mes Projets",
+    "title": "Mes Projets 🛠️",
     "subtitle": "Startups et entreprises auxquelles j'ai contribué en construisant et façonnant leur technologie depuis le début",
     "viewProject": "Voir le projet",
     "joblogic": {
@@ -160,6 +163,22 @@
         "subtitle": "Présenté des talks techniques sur les modèles d'architecture iOS incluant MVVM, Clean Swift, et la conception d'app modulaire. Partagé des insights sur les pratiques de code évolutives, les stratégies de débogage du monde réel, et le développement cross-platform utilisant Flutter et SwiftUI lors de diverses meetups locales et sessions en ligne"
       }
     }
+  },
+  "blogs": {
+    "title": "Blogs 📝",
+    "subtitle": "Avec l'amour pour développer des trucs sympas, j'aime écrire et enseigner aux autres ce que j'ai appris",
+    "content": "J'aime développer des fonctionnalités du scratch et animer le code selon l'UI de l'UX.",
+    "description": "Plus de contenu à venir bientôt !"
+  },
+  "talks": {
+    "title": "TALKS 🎤",
+    "subtitle": "J'AIME PARTAGER MES CONNAISSANCES LIMITÉES ET RECEVOIR UNE RÉACTION INCROYABLE DE LA COMMUNAUTÉ ! ❤️",
+    "description": "En plus du fait d'être un développeur mobile, j'adore aussi donner des talks de retour à la communauté de développeurs. J'aime parler de choses que j'ai apprises dans le développement mobile pour aider d'autres développeurs à créer d'incroyables applications mobiles et sites Web"
+  },
+  "podcast": {
+    "title": "Podcast 🎙️",
+    "subtitle": "J'AIME PARLER DE MOI ET DE LA TECHNOLOGIE",
+    "description": "Plus de contenu de podcast à venir bientôt !"
   },
   "contact": {
     "title": "Me contacter ☎️",

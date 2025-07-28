@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import React from 'react';
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file   subtitle: "projects.subtitle",ame for custom animation
 
 // Splash Screen
 
@@ -22,9 +22,9 @@ const illustration = {
 
 const greeting = {
   username: "Ameer Hamza",
-  title: "Hi all, I'm Hamza",
+  title: "greeting.title",
   subTitle: emoji(
-    "A passionate Senior Mobile Application Developer with a strong background in building high-quality mobile apps. I specialize in developing seamless, scalable applications using Swift, UIKit, Objective-C, SwiftUI, Kotlin, and Dart. From crafting intuitive user interfaces to implementing complex backend integrations, I focus on delivering robust iOS and Android solutions that provide real value"
+    "greeting.subtitle"
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1iH2vXy6HeWk231doQlhw1Yuw7kSZT3Dm", // Set to empty to hide the button
@@ -48,8 +48,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Curious Mobile Developer Always Ready to Dive into the Next Big Thing",
+  title: "skills.title",
+  subTitle: "skills.subtitle",
   skills: [
     "⚡ Design and develop high-quality mobile applications with smooth, responsive, and user-friendly interfaces",
     <React.Fragment key="build-apps">
@@ -171,10 +171,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Sargodha",
+      schoolName: "education.university",
       logo: require("./assets/images/sargodha.jpeg"),
-      subHeader: "Bachelor in Computer Science",
-      duration: "(October 2017 - June 2021)"
+      subHeader: "education.degree",
+      duration: "education.duration"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -277,17 +277,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "My Projects",
+  title: "projects.title",
   subtitle: "Startups and companies I’ve contributed to by building and shaping their technology from the ground up",
   projects: [
     {
       image: require("./assets/images/Joblogic_Project.png"),
-      projectName: "Joblogic",
-      projectDesc: "Field service management software suite for SaaS",
+      projectName: "projects.joblogic.name",
+      projectDesc: "projects.joblogic.description",
       techStack: "Swift, Objective-C, MVVM, MVP, Clean Architecture, Core Data, SQLite, Flutter (Dart, Clean, GetX), Kotlin",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/joblogic/id1084286430"
         },
 
@@ -295,12 +295,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Jalsah_Project.png"),
-      projectName: "Jalsah",
-      projectDesc: "Social interaction app for real-time chatting, interactive challenges, and games",
+      projectName: "projects.jalsah.name",
+      projectDesc: "projects.jalsah.description",
       techStack: "Swift, MVVM, UIKit, Google AdMob, Custom Animations, In-App Purchases",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/jalsah-جلسة/id1106410643"
         }
         //  you can add extra buttons here.
@@ -308,8 +308,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Family Time_Project.png"),
-      projectName: "FamilyTime",
-      projectDesc: "Parental control app with monitoring and blocking capabilities",
+      projectName: "projects.familytime.name",
+      projectDesc: "projects.familytime.description",
       techStack: "Swift, Objective-C, MVC, In-App Purchases",
       footerLink: [
         {
@@ -324,12 +324,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Alfalah_Project.png"),
-      projectName: "Alfalah",
-      projectDesc: "Islamic lifestyle app featuring Quran, prayers, duas, Qibla direction, and Islamic calendar",
+      projectName: "projects.alfalah.name",
+      projectDesc: "projects.alfalah.description",
       techStack: "Swift, UIKit, Core Data, MVVM",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/alfalah-quran-athan-prayer/id1631108236"
         },
 
@@ -337,24 +337,24 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Get An Expert_Project.png"),
-      projectName: "Get An Expert",
-      projectDesc: "Service marketplace app connecting providers and clients",
+      projectName: "projects.getanexpert.name",
+      projectDesc: "projects.getanexpert.description",
       techStack: "Swift, MVC, Firebase, Chat, Audio/Video Calls, Online Payment"
     },
     {
       image: require("./assets/images/Quokka_Project.png"),
-      projectName: "Quokka",
-      projectDesc: "Social matchmaking app for one-minute voice calls",
+      projectName: "projects.quokka.name",
+      projectDesc: "projects.quokka.description",
       techStack: "Swift, UIKit, MVVM, Social logins, Custom Animations, WebSockets",
     },
     {
       image: require("./assets/images/doc Scanner_Project.png"),
-      projectName: "Scanner App",
-      projectDesc: "Document scanning, editing, and PDF generation utility",
+      projectName: "projects.scanner.name",
+      projectDesc: "projects.scanner.description",
       techStack: "Swift, MVC, Core Data",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/scanner-app/id1291962681"
         },
 
@@ -362,24 +362,24 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/SKUScanner_Project.png"),
-      projectName: "SKU Scanner",
-      projectDesc: "An inventory management application that allows users to manage stock, generate and scan barcodes, maintain records, and create detailed reports for tracking and analysis",
+      projectName: "projects.skuscanner.name",
+      projectDesc: "projects.skuscanner.description",
       techStack: "Swift, MVC, BarCodescanner, BarCode Generator, iOT",
     },
     {
       image: require("./assets/images/Community Maker_Project.png"),
-      projectName: "Community Maker",
-      projectDesc: "Social app enabling users to post help requests within local communities",
+      projectName: "projects.communitymaker.name",
+      projectDesc: "projects.communitymaker.description",
       techStack: "Swift, UIKit, MVC, Deep Linking",
     },
     {
       image: require("./assets/images/Pisiffik.jpg"),
-      projectName: "Pisiﬃk",
-      projectDesc: "Modern e-commerce app with online grocery shopping, in-store pickup, home delivery, and a built-in loyalty rewards system",
+      projectName: "projects.pisiffik.name",
+      projectDesc: "projects.pisiffik.description",
       techStack: "Swift, UIKit, MVVM, Google Maps, Stripe Integration",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/pisiffik/id1637092101"
         },
 
@@ -387,12 +387,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/My360Key.jpg"),
-      projectName: "My 360 Key",
-      projectDesc: "App for real-time discovery of nearby shops with map-based navigation and smart door unlocking using MapKit and smart lock APIs",
+      projectName: "projects.my360key.name",
+      projectDesc: "projects.my360key.description",
       techStack: "Swift, MVVM, MapKit, NFC",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/my360key/id6449696077"
         },
 
@@ -400,12 +400,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/LifeSign.webp"),
-      projectName: "Life Sign",
-      projectDesc: "A secure, communication-focused mobile app with real-time messaging to help users stay connected with friends and family through private, instant conversations",
+      projectName: "projects.lifesign.name",
+      projectDesc: "projects.lifesign.description",
       techStack: "Swift, UIKit, MVC, Social Login SDKs, WebSockets",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/us/app/lifesign/id1499793115"
         },
 
@@ -413,12 +413,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/Flovso.png"),
-      projectName: "Flovso App",
-      projectDesc: "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments",
+      projectName: "projects.flovso.name",
+      projectDesc: "projects.flovso.description",
       techStack: "Swift, UIKit, MVC",
       footerLink: [
         {
-          name: "View Project",
+          name: "projects.viewProject",
           url: "https://apps.apple.com/pk/app/flovso/id1615357911"
         },
 
@@ -432,7 +432,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -462,9 +462,8 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "blogs.title",
+  subtitle: "blogs.subtitle",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     // These are only used when displayMediumBlogs is "false"
@@ -476,9 +475,9 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "talks.title",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "talks.subtitle"
   ),
 
   talks: [
@@ -497,8 +496,8 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("podcast.title"),
+  subtitle: "podcast.subtitle",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -510,8 +509,8 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "resume.title",
+  subtitle: "resume.subtitle",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true

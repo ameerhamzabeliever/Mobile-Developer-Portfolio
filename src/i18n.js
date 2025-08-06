@@ -21,6 +21,8 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    supportedLngs: ['en', 'fr'], // Explicitly define supported languages
+    load: 'languageOnly', // Ignore region codes like 'en-US' -> 'en'
     debug: process.env.NODE_ENV === 'development',
     
     interpolation: {
@@ -28,9 +30,30 @@ i18n
     },
     
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
+      order: ['localStorage', 'sessionStorage', 'navigator', 'htmlTag'],
+      caches: ['localStorage', 'sessionStorage'],
+      lookupLocalStorage: 'i18nextLng',
+      lookupSessionStorage: 'i18nextLng',
+      excludeCacheFor: ['cimode'], // languages to not persist (cookie, localStorage)
+      
+      // Chrome-specific fixes
+      checkWhitelist: true,
+      checkForSimilar: true
     },
+    
+    // Ensure immediate language change
+    react: {
+      useSuspense: false
+    }
+  })
+  .then(() => {
+    // Chrome debugging - log current language state
+    if (process.env.NODE_ENV === 'development') {
+      console.log('i18n initialized');
+      console.log('Current language:', i18n.language);
+      console.log('Detected languages:', i18n.languages);
+      console.log('localStorage i18nextLng:', localStorage.getItem('i18nextLng'));
+    }
   });
 
 export default i18n;

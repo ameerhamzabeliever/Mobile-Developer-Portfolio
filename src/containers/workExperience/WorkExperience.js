@@ -16,6 +16,7 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">{t('experience.title')}</h1>
+              <p className="experience-subtitle">{t('experience.subtitle')}</p>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   // Map dynamic translations for each experience
@@ -31,7 +32,13 @@ export default function WorkExperience() {
                     heading: getExperienceText(card.company, 'heading'),
                     descBullets: card.descBullets ? card.descBullets.map((bullet, index) => 
                       t(`experience.${card.company.toLowerCase().replace(/\s+/g, '')}.points.${index}`, bullet)
-                    ) : []
+                    ) : [],
+                    toolsSection: card.toolsSection ? {
+                      heading: t(`experience.${card.company.toLowerCase().replace(/\s+/g, '')}.toolsHeading`, card.toolsSection.heading),
+                      items: card.toolsSection.items ? card.toolsSection.items.map((item, index) => 
+                        t(`experience.${card.company.toLowerCase().replace(/\s+/g, '')}.tools.${index}`, item)
+                      ) : []
+                    } : null
                   };
                   
                   return (

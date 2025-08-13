@@ -1,7 +1,28 @@
 @import "../_globalColor";
+@import "../darkModeColors";
 
 .dark-mode {
   background-color: $darkBackground;
-  color: white;
-  transition: "0.1s";
+  color: $textColorDark;
+  transition: 0.1s;
+  
+  // Ensure all headings are white in dark mode
+  h1, h2, h3, h4, h5, h6 {
+    color: $textColorDark !important;
+  }
+  
+  // Fix any remaining subtitle classes
+  .subtitle, .sub-title, .subTitle {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  // Fix heading classes
+  .heading, .title, .card-title {
+    color: $textColorDark !important;
+  }
+  
+  // Fix paragraph and general text
+  p, span, div {
+    color: rgba(255, 255, 255, 0.9);
+  }
 }

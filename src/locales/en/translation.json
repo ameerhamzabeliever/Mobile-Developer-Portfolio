@@ -22,15 +22,59 @@
     "skill1": "⚡ Design and develop high-quality mobile applications with smooth, responsive, and user-friendly interfaces",
     "skill2": "⚡ Build apps that are:",
     "skill2_sub1": "✔ Based on strong, scalable ideas",
-    "skill2_sub2": "✔ Visually appealing and engaging", 
+    "skill2_sub2": "✔ Visually appealing and engaging",
     "skill2_sub3": "✔ Functional and intuitive—just the way users expect",
     "skill3": "⚡ Implement powerful features using technologies like Swift, Objective-C, SwiftUI, Flutter and Kotlin",
     "skill4": "⚡ Integrate third-party services including Firebase (Firestore, Auth, Realtime DB, Storage), AWS, and custom REST APIs",
     "skill5": "⚡ Follow modern architectures (MVVM, MVC, MVP, Clean Architecture) for scalable and maintainable codebases"
   },
+  "stats": {
+    "title": "Fast Facts 📊",
+    "subtitle": "A quick snapshot of my career highlights, showcasing experience, achievements, and impact",
+    "yearsExperience": "Years Experience",
+    "projectsDelivered": "Projects Delivered",
+    "uxImprovement": "UX Improvement",
+    "clientsCollaborated": "Clients Collaborated With",
+    "aiIntegrations": "AI Integrations",
+    "systemUptime": "System Uptime"
+  },
+  "stacks": {
+    "leadership": {
+      "title": "Leadership & Methodology",
+      "teamLeadership": "Team Leadership",
+      "projectManagement": "Project Management",
+      "agileScrum": "Agile/Scrum",
+      "codeReview": "Code Review",
+      "mentoring": "Mentoring"
+    },
+    "codingPhilosophy": {
+      "title": "Vibe Coding Philosophy",
+      "cleanCode": "Clean Code Principles",
+      "userCentric": "User-Centric Development",
+      "solidPrinciples": "SOLID Principles",
+      "performanceOptimization": "Performance Optimization",
+      "continuousLearning": "Continuous Learning"
+    },
+    "crossPlatform": {
+      "title": "DevOps & Tools",
+      "flutter": "Flutter/Dart",
+      "android": "Android/Kotlin",
+      "aiIntegration": "AI Integration (MediaPipe)",
+      "pwa": "Progressive Web Apps",
+      "n8nAutomation": "n8n Automation"
+    },
+    "appPublishing": {
+      "title": "App Publishing & Distribution",
+      "appStoreConnect": "App Store Connect",
+      "googlePlayConsole": "Google Play Console",
+      "cicd": "CI/CD",
+      "aso": "App Store Optimization",
+      "betaTesting": "Beta Testing"
+    }
+  },
   "education": {
     "title": "Education 🎓",
-    "subtitle": "Basic Qualification and Certifications",
+    "subtitle": "Strong academic foundation supporting continuous professional growth and innovation",
     "degree": "Bachelor in Computer Science",
     "university": "University of Sargodha",
     "duration": "(October 2017 - June 2021)"
@@ -38,9 +82,18 @@
   "proficiency": {
     "title": "Proficiency 🎯"
   },
+  "skillsExpertise": {
+    "title": "Skills & Expertise 🎯",
+    "subtitle": "Core technical strengths and professional capabilities that drive impactful results",
+    "iosDevelopment": "Mobile Development",
+    "leadership": "Leadership & Methodology",
+    "philosophy": "Vibe Coding Philosophy",
+    "crossPlatform": "DevOps & Tools",
+    "appPublishing": "App Publishing & Distribution"
+  },
   "experience": {
     "title": "Experience 💼",
-    "subtitle": "Work, Internship and Volunteership",
+    "subtitle": "Proven track record of delivering results across diverse roles and industries",
     "joblogic": {
       "role": "Senior Mobile Application Developer",
       "company": "Joblogic",
@@ -74,7 +127,7 @@
         "Collaborated with cross-functional teams for timely delivery and quality assurance"
       ]
     },
-    "vespert": {
+    "vesperttech": {
       "role": "iOS Application Developer",
       "company": "Vespert Tech",
       "description": "Began my iOS development career at Vespert Tech, responsible for building and maintaining iOS applications",
@@ -92,58 +145,71 @@
   "projects": {
     "title": "My Projects 🛠️",
     "subtitle": "Startups and companies I've contributed to by building and shaping their technology from the ground up",
-    "viewProject": "View Project",
+    "viewProject": "Visit Website",
     "joblogic": {
       "name": "Joblogic",
-      "description": "Field service management software suite for SaaS"
+      "description": "Field service management software suite for SaaS",
+      "techStack": "Swift, Objective-C, MVVM, MVP, Clean Architecture, Core Data, SQLite, Flutter (Dart, Clean, GetX), Kotlin"
     },
     "jalsah": {
       "name": "Jalsah",
-      "description": "Social interaction app for real-time chatting, interactive challenges, and games"
+      "description": "Social interaction app for real-time chatting, interactive challenges, and games",
+      "techStack": "Swift, MVVM, UIKit, Google AdMob, Custom Animations, In-App Purchases"
     },
     "familytime": {
       "name": "FamilyTime",
-      "description": "Parental control app with monitoring and blocking capabilities"
+      "description": "Parental control app with monitoring and blocking capabilities",
+      "techStack": "Swift, Objective-C, MVC, In-App Purchases"
     },
     "alfalah": {
       "name": "Alfalah",
-      "description": "Islamic lifestyle app featuring Quran, prayers, duas, Qibla direction, and Islamic calendar"
+      "description": "Islamic lifestyle app featuring Quran, prayers, duas, Qibla direction, and Islamic calendar",
+      "techStack": "Swift, Objective-C, MVVM, UIKit, Core Location, AVFoundation, In-App Purchases"
     },
     "getanexpert": {
       "name": "Get An Expert",
-      "description": "Service marketplace app connecting providers and clients"
+      "description": "Service marketplace app connecting providers and clients",
+      "techStack": "Swift, MVVM, UIKit, WebKit, In-App Purchases"
     },
     "quokka": {
       "name": "Quokka",
-      "description": "Social matchmaking app for one-minute voice calls"
+      "description": "Social matchmaking app for one-minute voice calls",
+      "techStack": "Swift, MVVM, UIKit, WebRTC, In-App Purchases"
     },
     "scanner": {
       "name": "Scanner App",
-      "description": "Document scanning, editing, and PDF generation utility"
+      "description": "Document scanning, editing, and PDF generation utility",
+      "techStack": "Swift, MVVM, AVFoundation, Core Image, PDFKit, In-App Purchases"
     },
     "skuscanner": {
       "name": "SKU Scanner",
-      "description": "An inventory management application that allows users to manage stock, generate and scan barcodes, maintain records, and create detailed reports for tracking and analysis"
+      "description": "An inventory management application that allows users to manage stock, generate and scan barcodes, maintain records, and create detailed reports for tracking and analysis",
+      "techStack": "Swift, Objective-C, MVVM, Core Data, AVFoundation"
     },
     "communitymaker": {
       "name": "Community Maker",
-      "description": "Social app enabling users to post help requests within local communities"
+      "description": "Social app enabling users to post help requests within local communities",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location"
     },
     "pisiffik": {
       "name": "Pisiffik",
-      "description": "Modern e-commerce app with online grocery shopping, in-store pickup, home delivery, and a built-in loyalty rewards system"
+      "description": "Modern e-commerce app with online grocery shopping, in-store pickup, home delivery, and a built-in loyalty rewards system",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location, In-App Purchases"
     },
     "my360key": {
       "name": "My 360 Key",
-      "description": "App for real-time discovery of nearby shops with map-based navigation and smart door unlocking using MapKit and smart lock APIs"
+      "description": "App for real-time discovery of nearby shops with map-based navigation and smart door unlocking using MapKit and smart lock APIs",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location, Bluetooth"
     },
     "lifesign": {
       "name": "Life Sign",
-      "description": "A secure, communication-focused mobile app with real-time messaging to help users stay connected with friends and family through private, instant conversations"
+      "description": "A secure, communication-focused mobile app with real-time messaging to help users stay connected with friends and family through private, instant conversations",
+      "techStack": "Swift, MVVM, UIKit, WebSocket, End-to-End Encryption"
     },
     "flovso": {
       "name": "Flovso App",
-      "description": "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments"
+      "description": "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments",
+      "techStack": "Swift, MVVM, UIKit, Social Media APIs, Image Processing"
     }
   },
   "blogs": {

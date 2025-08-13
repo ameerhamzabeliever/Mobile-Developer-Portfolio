@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import React from 'react';
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file   subtitle: "projects.subtitle",ame for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your filename for custom animation
 
 // Splash Screen
 
@@ -188,6 +188,8 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
+  title: "Mobile Development",
+  icon: "📱",
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
@@ -196,14 +198,130 @@ const techStack = {
     },
     {
       Stack: "Android Development",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Flutter Development",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Web Development",
+      progressPercentage: "45%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
+// Leadership Stack
+const leadershipStack = {
+  title: "Leadership & Methodology",
+  icon: "👥",
+  experience: [
+    {
+      Stack: "Team Leadership",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Project Management",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Agile/Scrum",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Code Review",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Mentoring",
+      progressPercentage: "75%"
+    }
+  ]
+};
+
+// Coding Philosophy Stack
+const codingPhilosophyStack = {
+  title: "Coding Philosophy",
+  icon: "💡",
+  experience: [
+    {
+      Stack: "Clean Code Principles",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "SOLID Principles",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "User-Centric Development",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Performance Optimization",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Continuous Learning",
+      progressPercentage: "95%"
+    }
+  ]
+};
+
+// Cross-Platform Stack
+const crossPlatformStack = {
+  title: "DevOps & Tools",
+  icon: "🔄",
+  experience: [
+    {
+      Stack: "Git/Version Control",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Gradle",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Azure CI/CD",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Unit Testing",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "GitHub Actions",
+      progressPercentage: "75%"
+    }
+  ]
+};
+
+// App Publishing Stack
+const appPublishingStack = {
+  title: "App Publishing & Distribution",
+  icon: "🚀",
+  experience: [
+    {
+      Stack: "App Store Connect",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "TestFlight",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "CI/CD",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "App Store Optimization",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Release Management",
+      progressPercentage: "85%"
+    }
+  ]
 };
 
 // Work experience section
@@ -533,6 +651,51 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+// Fast Facts Section
+const statsSection = {
+  title: "Fast Facts 📊",
+  subtitle: "A quick snapshot of my career highlights, showcasing experience, achievements, and impact",
+  display: true, // Set false to hide this section
+  data: [
+    {
+      icon: "⏰",
+      number: "6+",
+      label: "Years Experience",
+      labelKey: "yearsExperience"
+    },
+    {
+      icon: "📋",
+      number: "20+",
+      label: "Projects Delivered",
+      labelKey: "projectsDelivered"
+    },
+    {
+      icon: "📈",
+      number: "50%",
+      label: "UX Improvement",
+      labelKey: "uxImprovement"
+    },
+    {
+      icon: "🤝",
+      number: "15+",
+      label: "Clients Collaborated With",
+      labelKey: "clientsCollaborated"
+    },
+    {
+      icon: "🤖",
+      number: "2+",
+      label: "AI Integrations",
+      labelKey: "aiIntegrations"
+    },
+    {
+      icon: "✅",
+      number: "100%",
+      label: "System Uptime",
+      labelKey: "systemUptime"
+    }
+  ]
+};
+
 export {
   illustration,
   greeting,
@@ -541,6 +704,10 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  leadershipStack,
+  codingPhilosophyStack,
+  crossPlatformStack,
+  appPublishingStack,
   workExperiences,
   openSource,
   bigProjects,
@@ -551,5 +718,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  statsSection
 };

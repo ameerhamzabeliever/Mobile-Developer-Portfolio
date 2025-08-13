@@ -1,13 +1,18 @@
 @import "../../_globalColor";
 
 .meter {
-  height: 20px;
+  height: 8px;
   position: relative;
   background: $progressBarBackground;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
+
+  .dark-mode & {
+    background: #333333;
+  }
 }
+
 .meter > span {
   display: block;
   height: 100%;
@@ -18,53 +23,186 @@
   background-color: $progressBarSpanBG;
   position: relative;
   overflow: hidden;
-}
-.skill {
-  line-height: 3.5vw;
-}
-.skill-bars {
-  font-size: 28px;
-  width: 40%;
-}
-.skills-container {
-  display: flex;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-.skills-container > * {
-  flex: 1;
-  margin-bottom: 30px;
-}
-.skills-image > img {
-  margin-left: 80px;
-  max-width: 90%;
-  height: auto;
-}
 
-/* Media Query */
-
-@media (max-width: 1456px) {
-  .skills-bar {
-    line-height: 4rem;
+  .dark-mode & {
+    background-color: #5dade2;
   }
-  .skills-image {
+}
+
+/* Professional gradient colors for progress bars */
+.meter > span.gradient-1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.meter > span.gradient-2 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.meter > span.gradient-3 {
+  background: linear-gradient(135deg, #4facfe 0%, #00a8ff 100%);
+}
+
+.meter > span.gradient-4 {
+  background: linear-gradient(135deg, #2C5F2D 0%, #97BC62 100%);
+}
+
+.meter > span.gradient-5 {
+  background: linear-gradient(135deg, #ee0979 0%, #ff6a00 100%);
+}
+
+.meter > span.gradient-6 {
+  background: linear-gradient(135deg, #434343 0%, #000000 100%);
+}
+
+.meter > span.gradient-7 {
+  background: linear-gradient(135deg, #8360c3 0%, #2ebf91 100%);
+}
+
+.meter > span.gradient-8 {
+  background: linear-gradient(135deg, #fc466b 0%, #3f5efb 100%);
+}
+
+.skill {
+  line-height: 2vw;
+  margin-bottom: 8px;
+  color: $textColor;
+
+  .dark-mode & {
+    color: #ffffff;
+  }
+}
+
+.skills-heading {
+  color: $titleColor;
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 30px;
+
+  .dark-mode & {
+    color: #ffffff;
+  }
+
+  @media (max-width: 1380px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.skills-subtitle {
+  font-size: 1.2rem;
+  color: $textColor;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/* Grid Layout Styles */
+.skills-main-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  align-items: start;
+}
+
+.skills-grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-card {
+  border: 2px solid $lightBorder1;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: $lightBackground1;
+  box-shadow: 0 4px 8px $lightBoxShadow;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 16px $lightBoxShadowDark;
+    transform: translateY(-2px);
+  }
+
+  .dark-mode & {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+.skills-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $lightBorder1;
+
+  .dark-mode & {
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.skills-card-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.skills-card-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $titleColor;
+  flex: 1;
+
+  .dark-mode & {
+    color: #ffffff;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1456px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  
+  .skills-grid-item.skills-image {
     display: none;
-    order: 2;
   }
 }
 
 @media (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
+  .skills-main-container {
+    padding: 15px 5px;
   }
-  .skills-bar {
-    line-height: 3rem;
-    margin: 20px;
+  
+  .skills-grid {
+    row-gap: 15px;
   }
-  .skills-image {
-    display: none;
-    order: 2;
+  
+  .skills-heading {
+    text-align: center;
   }
 }

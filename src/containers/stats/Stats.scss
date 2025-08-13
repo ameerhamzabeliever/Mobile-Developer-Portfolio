@@ -1,0 +1,212 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.stats-header-div {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.stats-heading {
+  font-size: 56px;
+  font-weight: 400;
+  color: $titleColor;
+  margin-bottom: 1rem;
+  
+  @media (max-width: 1380px) {
+    font-size: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.stats-subtitle {
+  font-size: 1.2rem;
+  color: $textColor;
+  line-height: 1.6;
+  
+  @media (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.stats-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.stats-cards-centered {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
+  @media (max-width: 768px) {
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    width: 250px;
+    
+    @media (max-width: 768px) {
+      width: 200px;
+    }
+    
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+}
+
+.stat-card {
+  background: $lightBackground1;
+  border-radius: 15px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid $lightBorder1;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    
+    .stat-icon {
+      transform: scale(1.2);
+    }
+    
+    .stat-number {
+      animation-play-state: paused;
+    }
+  }
+  
+  &.dark-mode {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 30px -15px;
+    
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: rgba(255, 255, 255, 0.2) 0px 25px 50px -12px;
+      
+      .stat-icon {
+        transform: scale(1.2);
+      }
+      
+      .stat-number {
+        animation-play-state: paused;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease;
+  
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $buttonColor; /* Using theme purple color #55198b */
+  line-height: 1;
+  animation: zoomPulse 2s ease-in-out infinite;
+  
+  .dark-mode & {
+    color: $buttonHover; /* Using button hover color for dark mode */
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+/* Zoom in/out animation */
+@keyframes zoomPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: $textColor;
+  font-weight: 500;
+  line-height: 1.4;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+// Dark mode global styles
+.dark-mode {
+  &.main {
+    background: transparent;
+  }
+  
+  .stats-heading {
+    color: #ffffff;
+  }
+  
+  .stats-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}

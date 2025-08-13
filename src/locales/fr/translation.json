@@ -28,6 +28,16 @@
     "skill4": "⚡ Intégrer des services tiers incluant Firebase (Firestore, Auth, Realtime DB, Storage), AWS et des API REST personnalisées",
     "skill5": "⚡ Suivre des architectures modernes (MVVM, MVC, MVP, Clean Architecture) pour des bases de code évolutives et maintenables"
   },
+  "stats": {
+    "title": "Faits Marquants 📊",
+    "subtitle": "Un aperçu rapide de mes points forts de carrière, mettant en avant l'expérience, les réalisations et l'impact",
+    "yearsExperience": "Années d'Expérience",
+    "projectsDelivered": "Projets Livrés",
+    "uxImprovement": "Amélioration UX",
+    "clientsCollaborated": "Clients en Collaboration",
+    "aiIntegrations": "Intégrations IA",
+    "systemUptime": "Temps de Fonctionnement Système"
+  },
   "education": {
     "title": "Formation 🎓",
     "subtitle": "Qualifications de base et certifications",
@@ -37,6 +47,14 @@
   },
   "proficiency": {
     "title": "Maîtrise 🎯"
+  },
+  "skillsExpertise": {
+    "title": "Compétences et Expertise 🎯",
+    "iosDevelopment": "Développement Mobile",
+    "leadership": "Leadership et Méthodologie",
+    "philosophy": "Philosophie de Codage Vibe",
+    "crossPlatform": "DevOps et Outils",
+    "appPublishing": "Publication et Distribution d'Applications"
   },
   "experience": {
     "title": "Expérience 💼",

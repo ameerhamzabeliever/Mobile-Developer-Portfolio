@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
@@ -6,10 +7,11 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
+  const { t } = useTranslation();
   if (isHireable) {
-    prof.hireable = "Yes";
+    prof.hireable = t("common.yes");
   } else {
-    prof.hireable = "No";
+    prof.hireable = t("common.no");
   }
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -43,7 +45,7 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
+                {t("common.openForOpportunities")} {prof.hireable}
               </span>
             </div>
             <SocialMedia />

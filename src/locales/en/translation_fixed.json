@@ -1,0 +1,252 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "greeting": {
+    "title": "Hi all, I'm Hamza",
+    "subtitle": "A passionate Senior Mobile Application Developer with a strong background in building high-quality mobile apps. I specialize in developing seamless, scalable applications using Swift, UIKit, Objective-C, SwiftUI, Kotlin, and Dart. From crafting intuitive user interfaces to implementing complex backend integrations, I focus on delivering robust iOS and Android solutions that provide real value",
+    "contactButton": "Contact me",
+    "resumeButton": "Download my resume"
+  },
+  "skills": {
+    "title": "What I do",
+    "subtitle": "Curious Mobile Developer Always Ready to Dive into the Next Big Thing",
+    "skill1": "⚡ Design and develop high-quality mobile applications with smooth, responsive, and user-friendly interfaces",
+    "skill3": "⚡ Implement powerful features using technologies like Swift, Objective-C, SwiftUI, Flutter and Kotlin",
+    "skill4": "⚡ Integrate third-party services including Firebase (Firestore, Auth, Realtime DB, Storage), AWS, and custom REST APIs",
+    "skill5": "⚡ Follow modern architectures (MVVM, MVC, MVP, Clean Architecture) for scalable and maintainable codebases"
+  },
+  "stats": {
+    "title": "Fast Facts 📊",
+    "subtitle": "A quick snapshot of my career highlights, showcasing experience, achievements, and impact",
+    "yearsExperience": "Years Experience",
+    "projectsDelivered": "Projects Delivered",
+    "uxImprovement": "UX Improvement",
+    "clientsCollaborated": "Clients Collaborated With",
+    "aiIntegrations": "AI Integrations"
+  },
+  "stacks": {
+    "leadership": {
+      "title": "Leadership & Methodology",
+      "teamLeadership": "Team Leadership",
+      "projectManagement": "Project Management",
+      "agileScrum": "Agile/Scrum",
+      "codeReview": "Code Review",
+      "mentoring": "Mentoring"
+    },
+    "codingPhilosophy": {
+      "title": "Vibe Coding Philosophy",
+      "cleanCode": "Clean Code Principles",
+      "userCentric": "User-Centric Development",
+      "solidPrinciples": "SOLID Principles",
+      "performanceOptimization": "Performance Optimization",
+      "continuousLearning": "Continuous Learning"
+    },
+    "crossPlatform": {
+      "title": "DevOps & Tools",
+      "flutter": "Flutter/Dart",
+      "android": "Android/Kotlin",
+      "aiIntegration": "AI Integration (MediaPipe)",
+      "pwa": "Progressive Web Apps",
+      "n8nAutomation": "n8n Automation"
+    },
+    "appPublishing": {
+      "title": "App Publishing & Distribution",
+      "appStoreConnect": "App Store Connect",
+      "googlePlayConsole": "Google Play Console",
+      "cicd": "CI/CD",
+      "aso": "App Store Optimization",
+      "betaTesting": "Beta Testing"
+    }
+  },
+  "education": {
+    "title": "Education 🎓",
+    "subtitle": "Strong academic foundation supporting continuous professional growth and innovation",
+    "degree": "Bachelor in Computer Science",
+    "university": "University of Sargodha",
+    "duration": "(October 2017 - June 2021)"
+  },
+  "proficiency": {
+    "title": "Proficiency 🎯"
+  },
+  "skillsExpertise": {
+    "title": "Skills & Expertise 🎯",
+    "subtitle": "Core technical strengths and professional capabilities that drive impactful results",
+    "iosDevelopment": "Mobile Development",
+    "leadership": "Leadership & Methodology",
+    "philosophy": "Vibe Coding Philosophy",
+    "crossPlatform": "DevOps & Tools",
+    "appPublishing": "App Publishing & Distribution"
+  },
+  "experience": {
+    "title": "Experience 💼",
+    "subtitle": "Proven track record of delivering results across diverse roles and industries",
+    "joblogic": {
+      "role": "Senior Mobile Application Developer",
+      "company": "Joblogic",
+      "description": "Joined as a Mid-Level iOS Developer, transitioned into a Senior Mobile Developer role",
+      "heading": "Key Responsibilities & Achievements",
+      "bullet1": "Developed and maintained iOS app using Swift, Objective-C, MVVM, Clean Swift, and Core Data",
+      "bullet2": "Worked on Flutter app using Dart, Clean Architecture, and GetX",
+      "bullet3": "Maintained WebView module using HTML, CSS, JavaScript, and MVC",
+      "bullet4": "Stabilized the app by fixing critical bugs and achieved a 100% crash-free experience in production",
+      "bullet5": "Refactored 80% of the legacy Joblogic codebase, resolving critical crashes and bugs",
+      "toolsHeading": "Tools & Skills Gained:",
+      "tools1": "JIRA, Azure DevOps, Git",
+      "tools2": "SwiftUI (personal projects)",
+      "tools3": "Cross-platform and clean architecture expertise"
+    },
+    "yumyapps": {
+      "role": "iOS Application Developer",
+      "company": "YumyApps",
+      "description": "Joined as a Mid-level iOS Developer, leading end-to-end app development—from initial build to App Store deployment, maintenance, and feature enhancements",
+      "heading": "Key Responsibilities & Achievements:",
+      "bullet1": "Built and maintained iOS applications using Swift and UIKit",
+      "bullet2": "Enhanced app functionality and resolved critical bugs to stabilize the product",
+      "bullet3": "Set the foundation for a new product with clean architecture and reusable components",
+      "bullet4": "Utilized Core Data for efficient local storage and persistence",
+      "bullet5": "Applied MVVM and MVC architecture patterns for scalable code",
+      "bullet6": "Collaborated with cross-functional teams for timely delivery and quality assurance"
+    },
+    "vesperttech": {
+      "role": "iOS Application Developer",
+      "company": "Vespert Tech",
+      "description": "Began my iOS development career at Vespert Tech, responsible for building and maintaining iOS applications",
+      "heading": "Key Responsibilities & Achievements:",
+      "bullet1": "Delivered over 15+ apps, helping startups grow and launch successfully",
+      "bullet2": "Built and launched iOS apps from scratch using Swift, Objective-C, and UIKit",
+      "bullet3": "Integrated key features like In-App Purchases, WebSockets, and Google AdMob",
+      "bullet4": "Improved legacy codebases by adopting MVVM/MVC architecture and refactoring",
+      "bullet5": "Collaborated in Agile teams with active participation in stand-ups and sprint planning",
+      "bullet6": "Recognized as a top-performing team member for adding value to the company"
+    }
+  },
+  "projects": {
+    "title": "My Projects 🛠️",
+    "subtitle": "Startups and companies I've contributed to by building and shaping their technology from the ground up",
+    "viewProject": "Visit Website",
+    "joblogic": {
+      "name": "Joblogic",
+      "description": "Field service management software suite for SaaS",
+      "techStack": "Swift, Objective-C, MVVM, MVP, Clean Architecture, Core Data, SQLite, Flutter (Dart, Clean, GetX), Kotlin"
+    },
+    "jalsah": {
+      "name": "Jalsah",
+      "description": "Social interaction app for real-time chatting, interactive challenges, and games",
+      "techStack": "Swift, MVVM, UIKit, Google AdMob, Custom Animations, In-App Purchases"
+    },
+    "familytime": {
+      "name": "FamilyTime",
+      "description": "Parental control app with monitoring and blocking capabilities",
+      "techStack": "Swift, Objective-C, MVC, In-App Purchases"
+    },
+    "alfalah": {
+      "name": "Alfalah",
+      "description": "Islamic lifestyle app featuring Quran, prayers, duas, Qibla direction, and Islamic calendar",
+      "techStack": "Swift, Objective-C, MVVM, UIKit, Core Location, AVFoundation, In-App Purchases"
+    },
+    "getanexpert": {
+      "name": "Get An Expert",
+      "description": "Service marketplace app connecting providers and clients",
+      "techStack": "Swift, MVVM, UIKit, WebKit, In-App Purchases"
+    },
+    "quokka": {
+      "name": "Quokka",
+      "description": "Social matchmaking app for one-minute voice calls",
+      "techStack": "Swift, MVVM, UIKit, WebRTC, In-App Purchases"
+    },
+    "scanner": {
+      "name": "Scanner App",
+      "description": "Document scanning, editing, and PDF generation utility",
+      "techStack": "Swift, MVVM, AVFoundation, Core Image, PDFKit, In-App Purchases"
+    },
+    "skuscanner": {
+      "name": "SKU Scanner",
+      "description": "An inventory management application that allows users to manage stock, generate and scan barcodes, maintain records, and create detailed reports for tracking and analysis",
+      "techStack": "Swift, Objective-C, MVVM, Core Data, AVFoundation"
+    },
+    "communitymaker": {
+      "name": "Community Maker",
+      "description": "Social app enabling users to post help requests within local communities",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location"
+    },
+    "pisiffik": {
+      "name": "Pisiffik",
+      "description": "Modern e-commerce app with online grocery shopping, in-store pickup, home delivery, and a built-in loyalty rewards system",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location, In-App Purchases"
+    },
+    "my360key": {
+      "name": "My 360 Key",
+      "description": "App for real-time discovery of nearby shops with map-based navigation and smart door unlocking using MapKit and smart lock APIs",
+      "techStack": "Swift, MVVM, UIKit, MapKit, Core Location, Bluetooth"
+    },
+    "lifesign": {
+      "name": "Life Sign",
+      "description": "A secure, communication-focused mobile app with real-time messaging to help users stay connected with friends and family through private, instant conversations",
+      "techStack": "Swift, MVVM, UIKit, WebSocket, End-to-End Encryption"
+    },
+    "flovso": {
+      "name": "Flovso App",
+      "description": "A social platform for the fashion industry, enabling users to share opinions, engage in discussions, and get community feedback on trends, brands, and designers—featuring user-generated content, likes, comments",
+      "techStack": "Swift, MVVM, UIKit, Social Media APIs, Image Processing"
+    }
+  },
+  "blogs": {
+    "title": "Blogs",
+    "subtitle": "With Love for Developing cool stuff, I love to write and teach others what I have learnt."
+  },
+  "talks": {
+    "title": "TALKS",
+    "subtitle": "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  },
+  "podcast": {
+    "title": "Podcast 🎙️",
+    "subtitle": "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY"
+  },
+  "achievements": {
+    "title": "Achievements And Certifications 🏆",
+    "subtitle": "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "cards": {
+      "apple": {
+        "title": "Apple Certified iOS App Development with Swift",
+        "subtitle": "Completed Apple's official curriculum focused on iOS development using Swift. Gained hands-on experience with app architecture, Swift programming, UI design, and deployment. Participated through the Swift Student Challenge and affiliated Apple learning initiatives"
+      },
+      "hackathon": {
+        "title": "Hackathon Winner at AngelHack",
+        "subtitle": "Secured first place at AngelHack for developing a mobile application that provided real-time emergency assistance and geo-tracking. Led the iOS development, implemented scalable architecture using Swift and MVVM, and presented the solution to a panel of industry experts"
+      },
+      "speaker": {
+        "title": "Speaker at Mobile Dev Meetups or Conferences",
+        "subtitle": "Delivered technical talks on iOS architecture patterns including MVVM, Clean Swift, and modular app design. Shared insights on scalable code practices, real-world debugging strategies, and cross-platform development using Flutter and SwiftUI at various local meetups and online sessions"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Me ☎️",
+    "subtitle": "Discuss a project or just want to say hi? My Inbox is open for all",
+    "phone": "+92 323 7426165",
+    "email": "code.believers@gmail.com"
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "Feel free to download my resume"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by",
+    "theme": "Theme by"
+  },
+  "common": {
+    "openForOpportunities": "Open for opportunities:",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

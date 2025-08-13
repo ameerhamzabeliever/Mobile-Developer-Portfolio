@@ -3,10 +3,18 @@
 .achievement-subtitle {
   margin: 0px;
   margin-bottom: 50px;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
 
 .subTitle {
   color: $subTitle;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
 
 /* Media Query */

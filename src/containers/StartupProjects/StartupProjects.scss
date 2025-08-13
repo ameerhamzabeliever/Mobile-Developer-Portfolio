@@ -11,11 +11,19 @@
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  
+  .dark-mode & {
+    color: $textColorDark;
+  }
 }
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
 .project-card {
   display: flex;

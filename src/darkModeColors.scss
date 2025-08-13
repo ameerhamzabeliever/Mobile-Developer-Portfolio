@@ -1,0 +1,187 @@
+/* Dark Mode Color Overrides - Non-layout affecting */
+@import "./_globalColor";
+
+/* Dark mode color fixes without affecting layout */
+.dark-mode {
+  
+  /* Main headings across all sections - MOST IMPORTANT FIX */
+  .skills-heading,
+  .greeting-text,
+  .contact-title,
+  .education-heading,
+  .experience-heading,
+  .stats-heading,
+  h1, h2, h3, h4, h5, h6 {
+    color: $textColorDark !important;
+  }
+  
+  /* Subtitles - SPECIFIC FIXES FOR BLACK TEXT ISSUE */
+  .skills-subtitle,
+  .education-subtitle,
+  .experience-subtitle,
+  .project-subtitle,
+  .achievement-subtitle,
+  .skills-text-subtitle,
+  .contact-subtitle,
+  .stats-subtitle,
+  .greeting-text-p,
+  .subTitle {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  /* Force white color for any subtitle that might be black */
+  p.skills-subtitle,
+  p.education-subtitle,
+  p.experience-subtitle,
+  p.project-subtitle,
+  p.achievement-subtitle,
+  p.subTitle {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  /* Main content text */
+  .skills-text,
+  .card-subtitle,
+  .education-text-subHeader,
+  .education-text-duration,
+  .education-text-desc,
+  .education-text-bullets ul,
+  .education-text-bullets li,
+  .experience-text-role,
+  .experience-text-date,
+  .experience-text-desc,
+  .stat-label,
+  p {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+  
+  /* Card titles */
+  .card-title,
+  .education-text-school,
+  .skills-card-title {
+    color: $textColorDark !important;
+  }
+  
+  /* Project Cards Background */
+  .project-card {
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  /* Certificate/Achievement Cards */
+  .certificate-card {
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 30px -15px !important;
+  }
+  
+  /* Certificate image background */
+  .certificate-image-div {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  /* Progress bars */
+  .meter {
+    background: #333333 !important;
+  }
+  
+  /* Skills cards */
+  .skills-card {
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .skills-card-header {
+    border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  /* Education card borders */
+  .education-card-border {
+    border-top-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  /* Experience cards */
+  .experience-card-dark {
+    background-color: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 30px -15px !important;
+  }
+  
+  /* Stats cards */
+  .stat-card.dark-mode {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 30px -15px !important;
+  }
+  
+  .stat-label {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  /* Contact details */
+  .contact-detail,
+  .contact-detail-email {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .contact-detail:hover,
+  .contact-detail-email:hover {
+    color: $textColorDark !important;
+    text-shadow: 2px 1px 2px rgba(255, 255, 255, 0.3) !important;
+  }
+  
+  /* Tech labels */
+  .tech-label {
+    color: #ccc !important;
+  }
+  
+  /* Footer text */
+  .footer-text {
+    color: $textColorDark !important;
+  }
+  
+  /* Links */
+  a {
+    color: $textColorDark !important;
+  }
+  
+  /* Experience text elements */
+  .dark-mode-text {
+    color: $textColorDark !important;
+  }
+  
+  .experience-text-heading {
+    color: #fff !important;
+  }
+  
+  /* NUCLEAR OPTION - Override any potential black text */
+  * {
+    &[style*="color: black"],
+    &[style*="color: #000"],
+    &[style*="color: #000000"],
+    &[style*="color:black"],
+    &[style*="color:#000"],
+    &[style*="color:#000000"] {
+      color: $textColorDark !important;
+    }
+  }
+  
+  /* Force section containers to have white text */
+  .education-section,
+  .skills-main-container,
+  .experience-section,
+  .achievement-section,
+  #projects {
+    color: $textColorDark;
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: $textColorDark !important;
+    }
+    
+    p {
+      color: rgba(255, 255, 255, 0.8) !important;
+    }
+  }
+}

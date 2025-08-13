@@ -1,3 +1,5 @@
+@import "../../_globalColor";
+
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -7,6 +9,27 @@
 .experience-heading {
   font-size: 56px;
   font-weight: 400;
+  color: $titleColor;
+  
+  .dark-mode & {
+    color: $textColorDark;
+  }
+}
+
+.experience-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  
+  .dark-mode & {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 .experience-container {

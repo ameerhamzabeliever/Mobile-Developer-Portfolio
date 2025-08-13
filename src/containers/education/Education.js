@@ -11,6 +11,7 @@ export default function Education() {
     return (
       <div className="education-section" id="education">
         <h1 className="education-heading">{t('education.title')}</h1>
+        <p className="education-subtitle">{t('education.subtitle')}</p>
         <div className="education-card-container">
           {educationInfo.schools.map((school, index) => (
             <EducationCard key={index} school={school} />

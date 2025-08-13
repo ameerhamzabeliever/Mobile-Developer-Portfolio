@@ -34,7 +34,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {t('skills.title')}{" "}
+              {t("skills.title")}{" "}
             </h1>
             <p
               className={
@@ -43,7 +43,7 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {t('skills.subtitle')}
+              {t("skills.subtitle")}
             </p>
             <SoftwareSkill />
             <div>
@@ -54,7 +54,30 @@ export default function Skills() {
                     : "subTitle skills-text"
                 }
               >
-                {t('skills.skill1')}
+                {t("skills.skill1")}
+              </p>
+              <div
+                className={
+                  isDark
+                    ? "dark-mode subTitle skills-text"
+                    : "subTitle skills-text"
+                }
+              >
+                <p style={{ marginBottom: "10px" }}>{t("skills.skill2")}</p>
+                <div style={{ marginLeft: "20px", marginTop: "10px" }}>
+                  <p style={{ margin: "10px 0" }}>{t("skills.skill2_sub1")}</p>
+                  <p style={{ margin: "10px 0" }}>{t("skills.skill2_sub2")}</p>
+                  <p style={{ margin: "10px 0" }}>{t("skills.skill2_sub3")}</p>
+                </div>
+              </div>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode subTitle skills-text"
+                    : "subTitle skills-text"
+                }
+              >
+                {t("skills.skill3")}
               </p>
               <p
                 className={
@@ -63,45 +86,7 @@ export default function Skills() {
                     : "subTitle skills-text"
                 }
               >
-                {t('skills.skill2')}
-              </p>
-              <ul style={{marginLeft: '20px', marginTop: '5px'}}>
-                <li 
-                  className={
-                    isDark
-                      ? "dark-mode subTitle skills-text"
-                      : "subTitle skills-text"
-                  }
-                >
-                  {t('skills.skill2_sub1')}
-                </li>
-                <li 
-                  className={
-                    isDark
-                      ? "dark-mode subTitle skills-text"
-                      : "subTitle skills-text"
-                  }
-                >
-                  {t('skills.skill2_sub2')}
-                </li>
-                <li 
-                  className={
-                    isDark
-                      ? "dark-mode subTitle skills-text"
-                      : "subTitle skills-text"
-                  }
-                >
-                  {t('skills.skill2_sub3')}
-                </li>
-              </ul>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode subTitle skills-text"
-                    : "subTitle skills-text"
-                }
-              >
-                {t('skills.skill3')}
+                {t("skills.skill4")}
               </p>
               <p
                 className={
@@ -110,16 +95,7 @@ export default function Skills() {
                     : "subTitle skills-text"
                 }
               >
-                {t('skills.skill4')}
-              </p>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode subTitle skills-text"
-                    : "subTitle skills-text"
-                }
-              >
-                {t('skills.skill5')}
+                {t("skills.skill5")}
               </p>
             </div>
           </div>

@@ -44,14 +44,14 @@ export default function StackProgress() {
     return (
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-main-container">
-          <h1 className="skills-heading">{t('skillsExpertise.title', 'Skills & Expertise 🎯')}</h1>
-          <p className="skills-subtitle">{t('skillsExpertise.subtitle', 'Core technical strengths and professional capabilities that drive impactful results')}</p>
+          <h1 className="skills-heading">{t('skillsExpertise.title')}</h1>
+          <p className="skills-subtitle">{t('skillsExpertise.subtitle')}</p>
           
           {/* Grid container for all skill cards */}
           <div className="skills-grid">
             {/* Mobile Development card */}
             <div className="skills-grid-item">
-              {renderSkillCard(techStack, t('skillsExpertise.iosDevelopment', techStack.title), techStack.icon)}
+              {renderSkillCard(techStack, t('skillsExpertise.iosDevelopment'), techStack.icon)}
             </div>
 
             {/* Animation/Image */}
@@ -68,22 +68,22 @@ export default function StackProgress() {
 
             {/* Cross-Platform Development card */}
             <div className="skills-grid-item">
-              {renderSkillCard(crossPlatformStack, t('skillsExpertise.crossPlatform', crossPlatformStack.title), crossPlatformStack.icon)}
+              {renderSkillCard(crossPlatformStack, t('skillsExpertise.crossPlatform'), crossPlatformStack.icon)}
             </div>
 
             {/* Leadership & Methodology card */}
             <div className="skills-grid-item">
-              {renderSkillCard(leadershipStack, t('skillsExpertise.leadership', leadershipStack.title), leadershipStack.icon)}
+              {renderSkillCard(leadershipStack, t('skillsExpertise.leadership'), leadershipStack.icon)}
             </div>
 
             {/* Coding Philosophy card */}
             <div className="skills-grid-item">
-              {renderSkillCard(codingPhilosophyStack, t('skillsExpertise.philosophy', codingPhilosophyStack.title), codingPhilosophyStack.icon)}
+              {renderSkillCard(codingPhilosophyStack, t('skillsExpertise.philosophy'), codingPhilosophyStack.icon)}
             </div>
 
             {/* App Publishing & Distribution card */}
             <div className="skills-grid-item">
-              {renderSkillCard(appPublishingStack, t('skillsExpertise.appPublishing', appPublishingStack.title), appPublishingStack.icon)}
+              {renderSkillCard(appPublishingStack, t('skillsExpertise.appPublishing'), appPublishingStack.icon)}
             </div>
           </div>
         </div>

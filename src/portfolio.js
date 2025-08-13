@@ -306,12 +306,12 @@ const appPublishingStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "TestFlight",
-      progressPercentage: "85%"
+      Stack: "Google Play Console",
+      progressPercentage: "50%"
     },
     {
-      Stack: "CI/CD",
-      progressPercentage: "80%"
+      Stack: "Beta Testing",
+      progressPercentage: "85%"
     },
     {
       Stack: "App Store Optimization",
